@@ -1,0 +1,14 @@
+ # como añadir un elemento
+
+persona = {
+    'nombre': 'carlos',
+    'edad': 30
+    }
+
+persona["color_favorito"] = "verde"
+  #nombre del diccionario, entre [] luego = y ingresAR EL VALOR
+persona["apellido"] = "perez",
+ # modificar un elemento de diccionario
+persona["edad"] = 31
+
+print(persona)
