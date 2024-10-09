@@ -7,8 +7,9 @@ print(atencion_al_cliente.quejas)
 print(atencion_al_cliente.afilacion)
 print(atencion_al_cliente.sujerencias)
 
+import atencion_al_cliente
 from atencion_al_cliente import usuarios
 
-for i, l in enumerate(usuarios):
-    print(l)
-    
+for x in usuarios:
+    for n in x:
+        print(n, x[n])
